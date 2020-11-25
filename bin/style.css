@@ -1,0 +1,324 @@
+#gameBackground
+{
+	-fx-background-image: url("images/stardust.png");
+}
+
+.label
+{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.text
+{
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-text-style: italic;
+}
+
+#menu
+{
+	-fx-background-color: #000000;
+	-fx-spacing: 20;
+}
+
+.zero
+{
+	-fx-text-fill: #336696;
+}
+
+.green
+{
+	-fx-text-fill: #42f48f;
+}
+
+.red
+{
+	-fx-text-fill: #b20e0e;
+}
+
+.zero LabeledText
+{
+	-fx-font-size: 18px;
+}
+
+.green LabeledText
+{
+	-fx-font-size: 18px;
+}
+
+.red LabeledText
+{
+	-fx-font-size: 18px;
+}
+
+.flash
+{
+	-fx-background-color: #336696;
+	-fx-opacity: 0.2;
+}
+
+#mainMenu
+{
+	-fx-background-image: url("images/Menu/menuBackground.png");
+	-fx-background-size: 1200 800;
+}
+
+.button
+{
+	-fx-text-fill: white;
+	-fx-background-color: black;
+	-fx-opacity: 0.7;
+	-fx-padding: 15px 100px 15px 100px;
+	-fx-effect: dropshadow(gaussian, white, 5.0, 0.0, 0, 0);
+}
+
+.button LabeledText
+{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.button:hover
+{
+	-fx-effect: dropshadow(gaussian, white, 40.0, 0.0, 0, 0);
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+	-fx-opacity: 1.0;
+}
+
+VBox
+{
+	-fx-alignment: center;
+}
+
+#miniMenuButton
+{
+  	-fx-background-image: url("images/Menu/home.png");
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-padding: 5px 15px 5px 15px;
+}
+
+#miniMenuButton:hover
+{
+  	-fx-background-image: url("images/Menu/homeHovered.png");
+}
+
+.toggle-button
+{
+	-fx-min-width: 500px;
+	-fx-text-fill: white;
+	-fx-background-color: black;
+	-fx-opacity: 0.7;
+	-fx-padding: 15px 100px 15px 100px;
+	-fx-effect: dropshadow(gaussian, white, 5.0, 0.0, 0, 0);
+}
+
+.toggle-button LabeledText
+{
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+}
+
+.toggle-button:hover
+{
+	-fx-effect: dropshadow(gaussian, white, 40.0, 0.0, 0, 0);
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+	-fx-opacity: 1.0;
+}
+
+.toggle-button:selected
+{
+	-fx-border-color: #336696;
+    -fx-border-width: 3;
+    -fx-effect: dropshadow(gaussian, #336696, 20.0, 0.0, 0, 0);
+}
+
+.menuLabel
+{
+	-fx-text-fill: white;
+	-fx-text-style: italic;
+	-fx-min-width: 200px;
+}
+
+.menuLabel LabeledText
+{
+	-fx-font-size: 16px;
+}
+
+.wrappers, .blue-wrapper, .yellow-wrapper, .green-wrapper
+{
+	-fx-opacity: 0.2;
+	-fx-border-color: gray;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(gaussian, gray, 10.0, 0.0, 0, 0);
+}
+
+.blue-wrapper
+{
+	-fx-graphic: url("images/Menu/blueWrapper.png");
+}
+
+.blue-wrapper:hover
+{
+	-fx-opacity: 1.0;
+}
+
+.blue-wrapper:selected
+{
+	-fx-opacity: 1.0;
+	-fx-border-color: #336696;
+    -fx-effect: dropshadow(gaussian, #336696, 40.0, 0.0, 0, 0);
+}
+
+.yellow-wrapper
+{
+	-fx-graphic: url("images/Menu/yellowWrapper.png");
+}
+
+.yellow-wrapper:hover
+{
+	-fx-opacity: 1.0;
+}
+
+.yellow-wrapper:selected
+{
+	-fx-opacity: 1.0;
+	-fx-border-color: yellow;
+    -fx-effect: dropshadow(gaussian, yellow, 40.0, 0.0, 0, 0);
+}
+
+.green-wrapper
+{
+	-fx-graphic: url("images/Menu/greenWrapper.png");
+}
+
+.green-wrapper:hover
+{
+	-fx-opacity: 1.0;
+}
+
+.green-wrapper:selected
+{
+	-fx-opacity: 1.0;
+	-fx-border-color: green;
+    -fx-effect: dropshadow(gaussian, green, 40.0, 0.0, 0, 0);
+}
+
+.transparentBackgroundCenter
+{
+	-fx-background-color: rgba(0, 0, 0, 0.8);
+	-fx-min-width: 1200px;
+    -fx-min-height: 765px;
+}
+
+.transparentBackground
+{
+	-fx-background-color: rgba(0, 0, 0, 0.8);
+	-fx-min-width: 1200px;
+    -fx-min-height: 800px;
+}
+
+.content-black
+{
+	-fx-background-color: black;
+	-fx-opacity: 0.9;
+	-fx-border-color: #15181c;
+	-fx-border-width: 1px;
+    -fx-max-width: 400px;
+    -fx-max-height: 400px;
+}
+
+.miniMenuLabel
+{
+	-fx-text-fill: #284263;
+	-fx-alignment: center;
+	-fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.75),1,0,1,1);
+}
+
+.miniMenuLabel LabeledText
+{
+	-fx-font-size: 27px;
+}
+
+.miniMenuButtonOption
+{
+	-fx-min-width: 300px;
+	-fx-border-color: #336696;
+    -fx-border-width: 3;
+    -fx-effect: dropshadow(gaussian, #336696, 10.0, 0.0, 0, 0);
+}
+
+.miniMenuButtonOption:hover
+{
+	-fx-border-color: white;
+	-fx-effect: dropshadow(gaussian, #336696, 40.0, 0.0, 0, 0);
+}
+
+#leaderMain
+{
+	-fx-padding: 30px;
+	-fx-background-color: rgba(0, 0, 0, 0.7);
+	-fx-border-color: #15181c;
+	-fx-border-width: 1px;
+	-fx-alignment: center;
+}
+
+.tableLable
+{
+	-fx-text-fill: #b3cce2;
+	-fx-text-align: center;
+}
+
+.tableLable LabeledText
+{
+	-fx-font-size: 14px;
+}
+
+.leaderMainHeader
+{
+	-fx-text-fill: #336696;
+	-fx-text-style: italic;
+	-fx-border-color: #233647;
+	-fx-border-width: 0px 0px 2px 0px;
+}
+
+.leaderMainHeader LabeledText
+{
+	-fx-font-size: 17px;
+}
+
+.biggerContentBlack
+{
+	-fx-background-color: black;
+	-fx-opacity: 0.9;
+	-fx-border-color: #15181c;
+	-fx-border-width: 1px;
+    -fx-max-width: 500px;
+    -fx-max-height: 500px;
+    -fx-alignment: center;
+}
+
+.leaderMini
+{
+	-fx-border-color: #15181c;
+	-fx-border-width: 0px 7px 0px 7px;
+	-fx-padding: 15px;
+	-fx-alignment: center;
+}
+
+#field
+{
+	-fx-background-color: #1c2026;
+	-fx-text-fill: #b3cce2;
+	-fx-font-weight: bold;
+}
+
+
